@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	h1 todo
+	div(id='container')
+		input(type='text' id='addtask')
+		input(type='date' id='date')
+		input(type='button' value='send' id='send_button')
+		
+		ul(id='taskContainer')
+			
+	script(src='/javascripts/postTask.js')
+
+	style(type="text/css")
+		body
+			font-family:Oswald
+		
